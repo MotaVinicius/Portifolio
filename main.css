@@ -374,13 +374,12 @@ nav a:hover::after{
 }
 /*footer*/
 footer{
-    padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
+    padding: 1.5vh 2vw;
     min-width: 99vw;
     background-color: #212121;
     color: #E8E8E8;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     box-shadow: -2px -2px 2px 2px #dca3a4ae;
 }
 #creditos a, #contato a{
@@ -969,6 +968,9 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     }
     .btns{
         width: 60vw;
+    }
+    #contato{
+        padding-bottom: 2vh;
     }
   }
   @media screen and (max-width: 450px) {
