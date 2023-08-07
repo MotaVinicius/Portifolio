@@ -778,6 +778,12 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
   }
   }
   @media screen and (max-width: 600px) {
+    .menu-mobile ul{
+        height: 105vh;
+    }
+    .menu-mobile{
+        height: 105vh;
+    }
     .on{
         display: block;
     }
