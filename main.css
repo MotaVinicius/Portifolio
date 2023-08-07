@@ -804,8 +804,8 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     }
     .menu-bar{
         display: block;
-        margin: 3vw;
-        font-size: 9vw;
+        margin: 5vw;
+        font-size: 10vw;
     }
     #h-header{
         width: 70vw;
@@ -988,6 +988,10 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     #play{
         margin-top: -4vh;
     }
+    .bt{
+        width: 27vw;
+        font-size: 1.1rem;
+    }
     #animation{
         width: 55vw;
     }
@@ -1060,5 +1064,8 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     justify-content: space-between;
     padding-bottom: 1.8vh;
   }
+  #container-mid{
+    height: 93vh;
+}
   
 }
