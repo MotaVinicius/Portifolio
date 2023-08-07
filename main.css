@@ -775,6 +775,16 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     #mid-legenda h4{
         font-size: 2.5vw;
   }
+  #mid-bottom{
+    min-height: 110vh;
+  }
+  #boxes{
+    margin-top: 1vh;
+  }
+  #contato{
+    padding-bottom: 2vw;
+    justify-content: space-around;
+}
   }
   @media screen and (max-width: 600px) {
     .menu-mobile ul{
@@ -969,9 +979,7 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     .btns{
         width: 60vw;
     }
-    #contato{
-        padding-bottom: 2vh;
-    }
+    
   }
   @media screen and (max-width: 450px) {
     #h-header{
@@ -1042,4 +1050,15 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     #mid-legenda h4{
         font-size: 4.5vw;
   }
+  #mid-bottom{
+    min-height: 100vh;
+  }
+  #boxes{
+    margin-top: 0;
+  }
+  #contato{
+    justify-content: space-between;
+    padding-bottom: 1.8vh;
+  }
+  
 }
