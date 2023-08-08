@@ -379,7 +379,7 @@ footer{
     background-color: #212121;
     color: #E8E8E8;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     box-shadow: -2px -2px 2px 2px #dca3a4ae;
 }
 #creditos a, #contato a{
