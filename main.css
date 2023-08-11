@@ -274,6 +274,9 @@ nav a:hover::after{
 .hardware{
     background-color: #9e1e64;
 }
+.hardware h2{
+    margin-bottom: 1vh;
+}
 .desenvolvimento{
     background-color: #383838;
     color: #ffffffe8;
@@ -1073,6 +1076,10 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
   }
   #container-mid{
     height: 96vh;
+    padding-bottom: 4vh;
 }
+    #Sobremim{
+        height: 35vh;
+    }
 
 }
