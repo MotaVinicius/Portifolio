@@ -98,7 +98,7 @@ nav a:hover::after{
     justify-content: space-evenly;
 
 }
-#h-header{
+.h-header{
     margin-top: 5vh;
     height: 45vh;
     width: 62vw;
@@ -116,7 +116,8 @@ nav a:hover::after{
     font-family: 'ubuntu';
     text-shadow: 3px 3px 3px #8C2022;
 }
-#h-header h1{
+.h-header h1{
+    display: none;
     margin-left: -1vw;
     font-size: 4.2vw;
     /*animation*/
@@ -136,9 +137,11 @@ nav a:hover::after{
         border-color: transparent;
     }
 }
-#text h2{
+.h-header h2{
+    display: none;
     margin-left: 10vw;
     font-size: 1.5vw;
+    text-align: end;
 }
 #h-mid{
     display: flex;
@@ -366,6 +369,9 @@ nav a:hover::after{
     border-radius: 3px;
     border: 1px solid black;
 }
+#node{
+    opacity: 0.4;
+}
 .empty{
     width:3vw;
     height: 6vh;
@@ -584,10 +590,10 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     nav#menu ul {
         margin-left: 6vw;
     }
-    #h-header h1{
+    .h-header h1{
         font-size: 5.5vw;
     }
-    #h-header h2{
+    .h-header h2{
         font-size: 2.2vw;
     }
     #play{
@@ -664,10 +670,10 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     nav a{
         font-size: 2.5vw;   
     }
-    #h-header h1{
+    .h-header h1{
         font-size: 6.1vw;
     }
-    #h-header h2{
+    .h-header h2{
         font-size: 2.2vw;
     }
     #play{
@@ -810,14 +816,14 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
         margin: 5vw;
         font-size: 10vw;
     }
-    #h-header{
+    .h-header{
         width: 70vw;
     }
-    #h-header h1{
+    .h-header h1{
         font-size: 8vw;
         margin-left: -2vw;
     }
-    #h-header h2{
+    .h-header h2{
         font-size: 3vw;
     }
     #play{
@@ -988,7 +994,7 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     .menu-mobile ul{
         height: 95vh;
     }
-    #h-header{
+    .h-header{
         margin-top: 1vh;
     }
     #play{
@@ -1051,7 +1057,7 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     #creditos p, #contato p, #creditos a{
         font-size: 3vw;
     }
-    #h-header h1{
+    .h-header h1{
         margin-top: -10vh;
     }
     #h-mid{
