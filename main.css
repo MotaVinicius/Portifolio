@@ -514,9 +514,11 @@ footer{
     flex-direction: column;
     font-family: 'IBM Plex Mono', monospace;
     border: 2px solid rgb(41, 41, 41);
+
 }
 .describe p{
     width: 20vw;
+    line-height: 2.6vh;
 }
 .btns{
     display: flex;
@@ -588,10 +590,10 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
         border-radius: 10vw;
     }
     .describe{
-        height: 18vh;
+        height: 19vh;
     }
     .carrossel img{
-        height: 25vh;
+        height: 26vh;
     }
   }
   @media screen and (max-width: 1024px) {
