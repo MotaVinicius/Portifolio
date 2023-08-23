@@ -589,6 +589,7 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     .link{
         width: 6.5vw;
         font-size: 1vw;
+        border-radius: 10vw;
     }
   }
   @media screen and (max-width: 1024px) {
