@@ -587,6 +587,12 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
         font-size: 1vw;
         border-radius: 10vw;
     }
+    .describe{
+        height: 18vh;
+    }
+    .carrossel img{
+        height: 25vh;
+    }
   }
   @media screen and (max-width: 1024px) {
     nav a{
