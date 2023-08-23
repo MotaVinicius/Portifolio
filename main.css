@@ -253,17 +253,18 @@ nav a:hover::after{
     padding-top: 1vw;
     border-bottom: 1px solid #ffffffe8;
     width: 80%;
-    margin-bottom: 1.5vh;
+    margin-bottom: 1vh;
     font-size: 1.4vw;
 }
 .desenvolvimento h2{
     border-bottom: 1px solid #e8e8e8e8;
 }
 .item p{
-    margin-top: 2vh;
+    margin-top: 1vh;
     text-align: center;
     width: 95%;
     font-size: .8vw;
+    flex: 1;
 }
 .soft-skills h2{
     border-bottom: 1px solid rgba(0, 0, 0, 0.91);
