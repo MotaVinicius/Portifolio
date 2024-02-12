@@ -296,10 +296,51 @@ nav a:hover::after{
 }
 /*-----mid bottom-----*/
 #mid-bottom{
-    min-height: 118vh;
+    min-height: 158vh;
     min-width: 98vw;
     background-image: url("blur0.png");
     background-size: cover;
+}
+#hardSkills{
+    border-top: 2px solid #dca3a4ae ;
+    border-bottom: 2px solid #dca3a4ae ;
+    background-color: #34343474;
+    height: 4.5vh;
+    min-width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E8E8E8;
+}
+#mid-middle{
+    margin-top: 20vh;
+    min-width: 98vw;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+#container-badges{
+    height: 40vh;
+    width: 90vw;
+    background-color: #999a9b0c;
+    box-shadow: 0px 0px 2px 2px #dca3a4ae;
+    border-radius: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#title-badges{
+    color: #E8E8E8;
+    text-align: center;
+}
+#title-badges h2{
+    font-size: 2vw;
+}
+#title-badges p{
+    font-size: 1vw;
+    padding-top: 2vh;
+    width: 40vw;
 }
 #conhecimentos{
     min-width: 98vw;
@@ -321,7 +362,6 @@ nav a:hover::after{
     align-items: center;
     justify-content: space-evenly;
     min-height: 110vh;
-    margin-top: 5vh;
 
 }
 .box, .secondbox{
@@ -445,6 +485,7 @@ footer{
     justify-content: center;
     align-items: center;
     min-height: 95vh;
+    margin-top: 10vh;
 }
 .container-slider{
     width: 80vw;
@@ -456,6 +497,7 @@ footer{
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
+    margin-bottom: 15vh;
 }
 #header-slider{
     height: 5.9vh;
