@@ -305,12 +305,13 @@ nav a:hover::after{
     border-top: 2px solid #dca3a4ae ;
     border-bottom: 2px solid #dca3a4ae ;
     background-color: #34343474;
-    height: 4.5vh;
+    height: 4.8vh;
     min-width: 98vw;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #E8E8E8;
+    font-size: 1.2vw;
 }
 #mid-middle{
     margin-top: 20vh;
@@ -335,7 +336,7 @@ nav a:hover::after{
     text-align: center;
 }
 #title-badges h2{
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 #title-badges p{
     font-size: 1vw;
