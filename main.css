@@ -296,7 +296,7 @@ nav a:hover::after{
 }
 /*-----mid bottom-----*/
 #mid-bottom{
-    min-height: 158vh;
+    min-height: 170vh;
     min-width: 98vw;
     background-image: url("blur0.png");
     background-size: cover;
@@ -316,7 +316,7 @@ nav a:hover::after{
 #mid-middle{
     margin-top: 20vh;
     min-width: 98vw;
-    min-height: 30vh;
+    min-height: 35vh;
     display: flex;
     justify-content: center;
 }
@@ -336,7 +336,8 @@ nav a:hover::after{
     text-align: center;
 }
 #title-badges h2{
-    font-size: 1.5vw;
+    font-size: 1.8vw;
+    margin-bottom: 1vh;
 }
 #title-badges p{
     font-size: 1vw;
@@ -636,6 +637,13 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
         height: 26vh;
     }
   }
+
+@media screen and (max-width: 1399px) {
+  #container-badges{
+    height: 52vh;
+}
+}
+
   @media screen and (max-width: 1024px) {
     nav a{
         font-size: 2.1vw;   
