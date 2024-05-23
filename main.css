@@ -728,6 +728,12 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     #mid-legenda h4{
         font-size: 2vw;
   }
+  #mid-middle{
+    display: none;
+  }
+  #hardSkills{
+    font-size: 3vw;
+  }
   }
 
   @media screen and (max-width: 768px) {
