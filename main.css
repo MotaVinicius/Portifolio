@@ -288,6 +288,9 @@ nav a:hover::after{
 .cloud{
     background-color: #198cce;
 }
+.blockchain{
+    background-color: #fa8638;
+}
 .item:hover{
     cursor: default;
     scale: 1.23;
