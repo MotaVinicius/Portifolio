@@ -737,9 +737,54 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
   #hardSkills{
     font-size: 3vw;
   }
+    #container-mid{
+    height: 95vh;
+    }
+    .vertentes{
+        flex-wrap: wrap;
+        width: 70vw;
   }
+      .container-slider{
+        width: 95vw;
+    }
+    #header-slider h2{
+        font-size: 6vw;
+    }
+    #bottom-slider{
+        width: 92vw;
+    }
+    .carrossel{
+        width: 85vw;
+    }
+    .carrossel img{
+        width: 50vw;
+        height: 31vw;
+    }
+    .describe{
+        width: 50vw;
+        height: 25vw;
+    }
+    #prev-bt img, #next-bt img{
+        width: 6.5vw;
+        height: 5.5vh;
+    }
+    .describe p{
+        font-size: 1.9vw;
+        width: 32vw;
+    }
+    .describe h3{
+        font-size: 2.7vw;
+    }
+    .link{
+        width: 10vw;
+        font-size: 1.6vw;
+    }
+    #projetos{
+        width: 100vw;
+    }
+}
 
-  @media screen and (max-width: 768px) {
+ /* @media screen and (max-width: 768px) {
     nav a{
         font-size: 2.5vw;   
     }
@@ -757,7 +802,7 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
         margin-top: 3vh;
         width: 35vw;
     }
-    /* sobre */
+    /* sobre *//*
     #Sobremim h2{
         font-size: 4.2vw;
     }
@@ -780,7 +825,7 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     .vertentes{
         gap: 3vw;
     }
-    /* icons */
+    /* icons *//*
     .box, .secondbox{
         margin-left: 0;
         width: 94vw;
@@ -801,7 +846,7 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     .rsp{
         display: none;
     }
-    /* slider */
+    /* slider *//*
     .container-slider{
         width: 95vw;
     }
@@ -867,7 +912,7 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     padding-bottom: 2vw;
     justify-content: space-around;
 }
-  }
+}*/
   @media screen and (max-width: 600px) {
     .menu-mobile ul{
         height: 105vh;
@@ -909,7 +954,7 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     }
     /* */
     #container-mid{
-        height: 95vh;
+        height: 125vh;
     }
     #Sobremim{
         padding-top: 4vh;
@@ -924,7 +969,7 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     }
     .vertentes{
         flex-wrap: wrap;
-        width: 85vw;
+        width: 80vw;
         margin-top: -6vh;
     }
     .item{
@@ -1020,6 +1065,19 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     #mid-legenda h4{
         font-size: 3.5vw;
   }
+    .carrossel{
+        width: 60vw;
+        gap: .5vw;
+        height: 46vh;
+    }
+    .carrossel img{
+        width: 60vw;
+        height: 24.5vh;
+    }
+    .describe{
+        width: 60vw;
+        height: 22vh;
+    }
   }
 
   @media screen and (max-width: 520px) {
@@ -1061,6 +1119,10 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     .btns{
         width: 60vw;
     }
+        .vertentes{
+        width: 95vw;
+  }
+
     
   }
   @media screen and (max-width: 450px) {
@@ -1154,11 +1216,14 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     padding-bottom: 1.8vh;
   }
   #container-mid{
-    height: 96vh;
+    height: 125vh;
     padding-bottom: 4vh;
 }
     #Sobremim{
         height: 35vh;
     }
+    .vertentes{
+        width: 95vw;
+  }
 
 }
