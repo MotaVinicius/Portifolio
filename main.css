@@ -790,6 +790,10 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
         width: 10vw;
         font-size: 1.6vw;
     }
+    .link-dsb{
+        width: 10vw;
+        font-size: 1.6vw;
+    }
     #projetos{
         width: 100vw;
     }
@@ -1061,6 +1065,10 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
         width: 13vw;
         font-size: 1.8vw;
     }
+    .link-dsb{
+        width: 13vw;
+        font-size: 1.8vw;
+    }
     .btns{
         width: 35vw;
     }
@@ -1127,6 +1135,11 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
         width: 19vw;
         font-size: 2.8vw;
     }
+    .link-dsb{
+        width: 19vw;
+        font-size: 2.8vw;
+    }
+
     .btns{
         width: 60vw;
     }
