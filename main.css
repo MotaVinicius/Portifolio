@@ -585,6 +585,17 @@ footer{
     background-color: #212121;
     color: #E8E8E8;
 }
+.link-dsb{
+    width: 5.3vw;
+    height: 3.2vh;
+    border-radius: 0.2rem;
+    border: none;
+    background-color: #212121;
+    color: #E8E8E8;
+    opacity: 0.5;
+    cursor: not-allowed;
+    
+}
 .slider{
     display: flex;
     align-items: center;
